@@ -1,0 +1,93 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts": {
+        "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
+        "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea",
+        "signature": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea"
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de",
+        "signature": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de"
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../typings/lib/index.d.ts": {
+        "version": "e932efd52314a2c89dcff48d57480d8895366cd4465395b4cd1d1a19bd0d846f",
+        "signature": "e932efd52314a2c89dcff48d57480d8895366cd4465395b4cd1d1a19bd0d846f"
+      },
+      "../lib/hash.ts": {
+        "version": "eb79afe4a88e9c7e852011e4ac55a71156563962b320c174ea6961e7bbcbf5ef",
+        "signature": "6d08a6b8d9a6b1c99724db4c43263037fd8365580480638fc21aa10def2e92af"
+      },
+      "../lib/compose.ts": {
+        "version": "dbf658c319578ae131c28547762e6ffacfcc780833afc593529cf9753066723e",
+        "signature": "c57350dc53c2aa9e219fbcc00b13b803dbfd0bb99c8519c0c6a8ca14429ec3b1"
+      },
+      "../lib/index.ts": {
+        "version": "72eb681e71d363d80cd359783dd75030a2e02e92136e86054a2c01e3c177c10f",
+        "signature": "9140f2acce87195a28377cb0c079de679eb3ee4aa027f2c69f8a70f5c58231f4"
+      }
+    },
+    "options": {
+      "module": 1,
+      "sourceMap": true,
+      "outDir": "./",
+      "composite": true,
+      "removeComments": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "typeRoots": [
+        "../typings/lib"
+      ],
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../lib/hash.ts": [
+        "../typings/lib/index.d.ts"
+      ],
+      "../lib/compose.ts": [
+        "../typings/lib/index.d.ts",
+        "../lib/hash.ts"
+      ],
+      "../lib/index.ts": [
+        "../lib/index.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../lib/hash.ts": [
+        "../typings/lib/index.d.ts"
+      ],
+      "../lib/compose.ts": [
+        "../typings/lib/index.d.ts"
+      ],
+      "../lib/index.ts": [
+        "../lib/index.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../typings/lib/index.d.ts",
+      "../lib/hash.ts",
+      "../lib/compose.ts",
+      "../lib/index.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts"
+    ]
+  },
+  "version": "3.7.3"
+}

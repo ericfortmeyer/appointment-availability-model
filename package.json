@@ -1,0 +1,27 @@
+{
+    "name": "appointment-availability-model",
+    "description": "A generic domain model for scheduling applications",
+    "keywords": [
+        "schedule",
+        "appointment",
+        "availability"
+    ],
+    "author": {
+        "name": "Baruq Software Developers",
+        "url": "https://baruq.tech"
+    },
+    "version": "1.0.0",
+    "license": "SEE LICENSE IN ./LICENSE",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ericfortmeyer/appointment-availability-model.git"
+    },
+    "scripts": {
+        "test": "jasmine"
+    },
+    "main": "lib/index.js",
+    "devDependencies": {
+        "jasmine": "^3.5.0"
+    },
+    "dependencies": {}
+}
