@@ -67,7 +67,7 @@
   },
   "include": [
     "./lib/*.ts",
-    "typings/*.ts"
+    "typings/*.ts", "index.ts"
   ],
   "compileOnSave": true,
 }

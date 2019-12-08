@@ -1,4 +1,4 @@
-import { hash } from './index';
+import { hash } from '../index';
 export function compose(availabilityOfAll) {
     return availabilityOfAll.reduce((map, [personId, personAvailability]) => (personAvailability.reduce((map, timeslot) => {
         const hashOfTimeslot = hash([timeslot.getDay(), timeslot.getHours()]);
