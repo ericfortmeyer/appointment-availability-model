@@ -3,4 +3,5 @@
  * Copyright 2019 Baruq Software, all rights reserved.
  */
 
-export * from './';
+export * from './hash';
+export * from './compose';

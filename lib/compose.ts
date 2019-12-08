@@ -1,5 +1,5 @@
-import { AvailabilityOfAll, CompositionOfAvailability, RepresentationOfAvailableDate, AvailablePeople, PersonID } from "../typings/lib";
-import { hash } from "./hash";
+import { AvailabilityOfAll, CompositionOfAvailability, RepresentationOfAvailableDate, AvailablePeople, PersonID } from '../typings/index';
+import { hash } from './index';
 
 /**
  * Use to create a data structure used in the presentation layer

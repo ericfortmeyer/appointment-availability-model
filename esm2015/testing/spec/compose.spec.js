@@ -1,8 +1,8 @@
-const compose = require('../dist/lib/compose');
+const compose = require('../lib/compose');
 const range = require('./helpers/range');
-const hash = require('../dist/lib/hash');
+const hash = require('../lib/hash');
 /**
- * @see {@link ../docs/compose.md}
+ * @see {@link /docs/compose.md}
  * 1. Efficient lookup
  * 2. Can be used to display availability of all
  * 3. Can be used to display availability of one person

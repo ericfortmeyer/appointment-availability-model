@@ -1,10 +1,10 @@
-const rangeOfTuples = require("./helpers/rangeOfTuples");
-const range = require("./helpers/range");
-const compareArrays = require("./helpers/compareArrays");
-var hash = require("./../dist/lib/hash");
+const rangeOfTuples = require('./helpers/rangeOfTuples');
+const range = require('./helpers/range');
+const compareArrays = require('./helpers/compareArrays');
+var hash = require('../lib/hash');
 
 /**
- * @see {@link ../docs/hash.md} for specification
+ * @see {@link /docs/hash.md} for specification
  */
 describe('The hash function', () => {
     it('should be idempotent', () => {

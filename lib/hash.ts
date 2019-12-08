@@ -1,4 +1,4 @@
-import { DayAndHourTuple, Hash } from "../typings/lib"
+import { DayAndHourTuple, Hash } from '../typings/index'
 
 /**
  * Use to create a representation of a day * hour pair
