@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const hash = require("./hash");
-const compose = function(availabilityOfAll) {
+function compose(availabilityOfAll) {
     return availabilityOfAll.reduce((map, [personId, personAvailability]) => (personAvailability.reduce((map, timeslot) => {
         const hashOfTimeslot = hash([timeslot.getDay(), timeslot.getHours()]);
         let currentEntry = map.get(hashOfTimeslot) || [];

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const hash = function(tuple) {
+function hash(tuple) {
     return [...tuple].toString();
 }
 module.exports = hash;
