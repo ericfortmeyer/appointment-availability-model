@@ -73,17 +73,17 @@
         "version": "a47603b832134397c8398c34ae8c763351b2c3a04103dffc4293cc5434ef0646",
         "signature": "9e089730b33a49a7c546f21a310904be3497cb5170d901df378f678bbd12befb"
       },
+      "../lib/filter.ts": {
+        "version": "a80532b29f40bce643f60b66f5c2ddc5040a6ef3f7494e34214f7f75e5196e32",
+        "signature": "c16b7c8d8c10bd790050b90a0476368f95bce1779d2064ce09fa9090ee7ca7d1"
+      },
       "../lib/index.ts": {
-        "version": "c1f49aa75de305c2eedb811823f8e44a142f1da078ff8cccc36e0c3f250f3e04",
-        "signature": "f67e0f57c29e4160cceddf59eab19df6e1d4bbf1c3e3aa44ae8ac0ab032f70f3"
+        "version": "a07de24760bebed3a9041dc39dd04af697689188e91f014cb3f932a4ecb0fd76",
+        "signature": "a73195a19dd8015d0f45730e4a1a987715334c3f2fd127d04a58152ff057bd79"
       },
       "../lib/compose.ts": {
         "version": "12a150b577decca3fc037e0242b8806936971149076d56a7d6e9565f1eada2ee",
         "signature": "7e453388b17c50153d632a994a06eae5dee05fc3fbe561f9826e8512aa3577f0"
-      },
-      "../lib/filter.ts": {
-        "version": "a80532b29f40bce643f60b66f5c2ddc5040a6ef3f7494e34214f7f75e5196e32",
-        "signature": "c16b7c8d8c10bd790050b90a0476368f95bce1779d2064ce09fa9090ee7ca7d1"
       }
     },
     "options": {
@@ -106,44 +106,41 @@
       "../lib/hash.ts": [
         "../typings/index.d.ts"
       ],
+      "../lib/filter.ts": [
+        "../typings/index.d.ts"
+      ],
       "../lib/index.ts": [
         "../lib/hash.ts",
         "../lib/compose.ts",
+        "../lib/filter.ts",
         "../typings/index.d.ts"
       ],
       "../lib/compose.ts": [
         "../typings/index.d.ts",
         "../lib/index.ts"
-      ],
-      "../lib/filter.ts": [
-        "../typings/index.d.ts"
       ]
     },
     "exportedModulesMap": {
-      "../lib/filter.ts": [
+      "../lib/hash.ts": [
         "../typings/index.d.ts"
       ],
-      "../lib/compose.ts": [
+      "../lib/filter.ts": [
         "../typings/index.d.ts"
       ],
       "../lib/index.ts": [
         "../lib/hash.ts",
         "../lib/compose.ts",
+        "../lib/filter.ts",
         "../typings/index.d.ts"
       ],
-      "../lib/hash.ts": [
+      "../lib/compose.ts": [
         "../typings/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es6.d.ts",
-      "../typings/index.d.ts",
-      "../lib/hash.ts",
-      "../lib/index.ts",
-      "../lib/compose.ts",
-      "../lib/filter.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
@@ -156,7 +153,12 @@
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../typings/index.d.ts",
+      "../lib/hash.ts",
+      "../lib/filter.ts",
+      "../lib/index.ts",
+      "../lib/compose.ts"
     ]
   },
   "version": "3.7.3"
