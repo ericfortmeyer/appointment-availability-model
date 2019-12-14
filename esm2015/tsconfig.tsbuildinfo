@@ -80,6 +80,10 @@
       "../lib/compose.ts": {
         "version": "12a150b577decca3fc037e0242b8806936971149076d56a7d6e9565f1eada2ee",
         "signature": "7e453388b17c50153d632a994a06eae5dee05fc3fbe561f9826e8512aa3577f0"
+      },
+      "../lib/filter.ts": {
+        "version": "a80532b29f40bce643f60b66f5c2ddc5040a6ef3f7494e34214f7f75e5196e32",
+        "signature": "c16b7c8d8c10bd790050b90a0476368f95bce1779d2064ce09fa9090ee7ca7d1"
       }
     },
     "options": {
@@ -110,10 +114,13 @@
       "../lib/compose.ts": [
         "../typings/index.d.ts",
         "../lib/index.ts"
+      ],
+      "../lib/filter.ts": [
+        "../typings/index.d.ts"
       ]
     },
     "exportedModulesMap": {
-      "../lib/compose.ts": [
+      "../lib/hash.ts": [
         "../typings/index.d.ts"
       ],
       "../lib/index.ts": [
@@ -121,18 +128,17 @@
         "../lib/compose.ts",
         "../typings/index.d.ts"
       ],
-      "../lib/hash.ts": [
+      "../lib/compose.ts": [
+        "../typings/index.d.ts"
+      ],
+      "../lib/filter.ts": [
         "../typings/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es6.d.ts",
-      "../typings/index.d.ts",
-      "../lib/hash.ts",
-      "../lib/index.ts",
-      "../lib/compose.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
@@ -145,7 +151,12 @@
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts"
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../typings/index.d.ts",
+      "../lib/hash.ts",
+      "../lib/index.ts",
+      "../lib/compose.ts",
+      "../lib/filter.ts"
     ]
   },
   "version": "3.7.3"
